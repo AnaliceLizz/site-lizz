@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
 }   
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .cabecalho {
-    background-color: #FFBFBF;
+    background-color: #FF9090;
     color: black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 24px 0;
 }
 
@@ -19,4 +22,28 @@
     display: inline-block;
     margin: 0 20px;
     font-size: 24px;
+}
+
+.loja-imagem{
+    width: 10%;
+}
+
+.loja{
+    background-image: linear-gradient(#FF9090,#FDD2D2);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.loja-div-conteudo{
+    width: 35%;
+}
+.loja-titulo{
+    padding: 24px 0;
+}
+
+.produto-imagem{
+    width: 263px;
 }

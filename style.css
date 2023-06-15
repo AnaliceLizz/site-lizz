@@ -47,3 +47,21 @@ body{
 .produto-imagem{
     width: 263px;
 }
+
+.preços-icone{
+    width: 24px;
+}
+
+.preços-div{
+    text-align: center;
+}
+
+.protutos-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.produtos-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
